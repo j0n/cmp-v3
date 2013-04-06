@@ -1,0 +1,51 @@
+<%- include header.ejs %>
+    <div class='wrapper'>
+      <header>
+        <h1 class="logo">logo</h1>
+        <ul class="meny">
+          <li>Meny 1</li>
+          <li>Meny 2</li>
+          <li>Meny 3</li>
+        </ul>
+        <div class="buy-part">
+          <div class="previous-price">
+            <span>SLUT: 100st biljetter á 500 kr</span>
+          </div>
+          <div class="current-price">
+            <input type='number' id="buy-amount" value='1' />
+            <span>biljett(er) á 630 kr</span>
+            <a class="buy-button button">Köp</a>
+            <div class="tickets-left">
+              <span id="amount-tickets-left">44</span>
+              kvar
+            </div>
+          </div>
+          <div class="upcoming-price">
+            <span>NÄSTA: 100st biljetter á 670 kr</span>
+          </div>
+        </div>
+      </header>
+    </div>
+    <div class="video-box">
+      <div class="wrapper" style="border solid 1px #333">
+        <h2>Sveriges bästa musikfestival av dig för dig.</h2>
+        <a href="#">
+          <i class="icon-play">play</i>
+        </a>
+        <h2>Spela filmen för att se hur</h2>
+      </div>
+    </div>
+    <div class='wrapper'>
+      <h2>Ambassadörer</h2>
+      <ul>
+        <li class="curators">
+          <div class="curators-image"></div>
+          <h3>Mats Gustafsson</h3>
+        </li>
+        <li class="curators">
+          <div class="curators-image"></div>
+          <h3>Dennis Lyxén</h3>
+        </li>
+      </ul> 
+    </div>
+    <%- include footer.ejs %>
